@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/dbsms',{
+mongoose.connect('database',{
     useNewUrlParser: true,
     useUnifiedTopology: true 
 
