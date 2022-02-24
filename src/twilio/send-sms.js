@@ -7,7 +7,7 @@ async function  sendMessage(body, phone){
 
         const message =  await  client.messages.create({
             to: phone,
-            from: '+17047074414',
+            from: '+XXXXXXXXXX',
             body
         });
         console.log(message.sid);
